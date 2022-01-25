@@ -1,2 +1,2 @@
 # notes-app
-weather-app  project from udemy
+weather-app mini  project from udemy
