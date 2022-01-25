@@ -1,0 +1,6 @@
+const chalk=require('chalk')
+console.log(chalk.blue('learning chalk to print coloured text'))
+console.log(chalk.green('success'))
+console.log(chalk.bgRed('!error'))
+console.log(chalk.yellow.bold.bgGreen('blue txt with greeen background with character bold'))
+console.log((chalk.yellow.bold.bgGreen.inverse('opp to previous statement,blue txt with green background with character bold')))
