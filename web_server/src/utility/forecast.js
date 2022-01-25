@@ -12,7 +12,7 @@ request({url,json:true},(error,{body}={})=>
     else if(body.error)
     {  if(body.error.type)
         {
-         callback('Monthly Usage limit Exceeds',undefined)
+         callback('Temporarily unavailable',undefined)
         }
         else{
             callback('unable to find location,try different combinations',undefined)
